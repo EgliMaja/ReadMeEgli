@@ -1,0 +1,409 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar-expand-lg {
+    background-color: #1d2025;
+}
+.nav {
+    text-transform: uppercase;
+    height: 60px;    
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px;
+}
+
+/* Tittles of navbar , it also created for making a landing page */
+.nav-link{
+    margin-top: -50px;
+    margin-left: -25px;
+    font-size: 15px;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Border of navbar-link HOME  */
+.home{
+    border: 1px solid #24b89f;
+    color:  #24b89f ;
+    background-color: transparent;
+}
+.home:hover{
+    color:  #24b89f ;
+}
+/* Border of navbar-links*/
+.NavTitle:hover{
+    border: 1px solid #5c6167;
+    width: 80px;
+}
+
+/* Container that i need for carousel */
+.container-fluid-xl{
+    background-repeat: repeat;
+}
+/* images of carousel */
+.wallpaper{
+    background-size: cover;
+}
+/* container inside carousel , it contains buttons , and texts */
+.conatiner-fr{
+    width: 500px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 400px;
+    text-transform: uppercase;
+}
+.text-muted{
+    text-transform: initial;
+}
+/* Buttons inside carousel */
+.btn-light{
+ text-transform: uppercase;
+ background: transparent;
+ border: 2px solid white;
+ box-sizing: border-box;
+ border-radius: 5px;
+ padding: 10px;
+}
+.btn-light:hover{
+    border: 2px solid #24b89f;
+    background-color: #24b89f;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* We are modest */
+.container{
+    margin-top: 80px;
+}
+/* We are modest tittle */
+.start{
+    background-color: #dfe6ec;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 25px;
+    margin-top: -5px;
+    width: 10px;
+}
+/* this applies to columns that are 50px below the We are Modest title*/
+.text_Modest{
+    margin-top: 50px;
+}
+/* logos We are Modest */
+.logoDesign {
+   font-size: 45px;
+   background-color: #c8cdd0;
+   color: white;
+   margin-left: -3px;
+   margin: 1px;
+   width: 50px;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+/*Numbers We are Modest */
+.number{
+    font-size: 25px;
+    background-color: #24b7a4;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 39px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    width: 50px;
+}
+
+/* Text Tttle in the right of numbers */
+.move{
+    margin-top: 5px;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+/* Text in the right of numbers */
+.move2{
+    margin-left: 60px;
+    text-transform: initial;
+    margin-top: 20px;
+}
+
+/* space between containers*/
+.weAREmodest{
+    padding: 50px;
+}
+
+/* Title Meet the Team */
+.move3{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+/* space of titles between containers */
+.space{
+    margin-top: 50px;
+}
+
+/* Background Image Meet The Team */
+.bacIMG{
+    background-color: #e1e6ea;
+    margin-top: 50px;
+    height: 380px;
+    cursor: pointer;
+}
+.bacIMG:hover{
+    background-color: #3b454e;
+    text-decoration-color: white;
+}
+
+/* Image Meet THe Team */
+.rounded2{
+    width: 100%;
+    cursor: pointer;
+}
+.rounded2:hover{
+    opacity: 0.7;
+}
+
+/* loogs inside the images of team work */
+.person{
+    background-color: #3b454e;
+    color: white;
+    position: relative;
+    padding: 15px;
+    margin-left: -2px;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+.clicker{
+    
+    margin-left: 35px;
+    margin-top: -145px;
+    opacity: 0;
+    height: 150px;
+}
+.clicker:hover{
+    opacity: 1;
+}
+
+/* name of worker team */
+.name{
+    margin-left: 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #373c40;
+}
+.name:hover{
+    color: white;
+}
+/* position in worker*/
+.name2{
+    margin-left: 30px;
+    margin-top: -8px;
+    font-size: 15px;
+    color: #a7aaaf;
+}
+.name2:hover{
+    color: white;
+}
+
+/* container of meet the team */
+.container-fluid{
+    margin-top: 50px;
+}
+
+/* container of lovely work */
+.container-fluid-ls{
+    background-color: #3b454e;
+    margin-top: 50px;
+}
+/* spaces between containers */
+.space-fluid-ls{
+    height: 50px;
+}
+/* Lovely work text title */
+.start2{
+    background-color: #535a5f;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 10px;
+    margin-top: 8px;
+    width: 10px;
+    margin-left: 290px;
+   
+}
+/* Lovely work title  , and others */
+.move4{
+    text-transform: uppercase;
+    margin-left: 220px;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+/* images of lovely work  */
+.rounded{
+    margin-top: 50px;
+    margin: 20px;
+    height: 250px;
+    margin-left: 0px;
+    cursor: pointer;
+    width: 100%;
+}
+.rounded:hover{
+    opacity: 0.7;
+   
+}
+/* image hover of lovely work */
+.plus{
+    content: "\208A";
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    margin-top: -200px;
+    position: absolute;
+    margin-left: 175px;
+    opacity: 0;
+    width: 50px;
+}
+.plus:hover{
+    opacity: 1;
+    position: absolute;
+}
+
+/* image hover of lovely work */
+.LovelyWorkHoverContents{
+    text-transform: uppercase;
+    min-height: 50px;
+    text-align: center;
+    margin-top: -70px;
+    opacity: 0;
+}
+.LovelyWorkHoverContents:hover{
+    opacity: 1;
+    background-color: #282f37;
+    position: absolute;
+    width: 350px;
+}
+/* button in the end of  lovely work */
+.lovelyWrokButton{
+    margin-top: 50px;
+    margin-left: 755px;
+    margin-bottom: 50px;
+}
+/* Icons of What we do */
+.whatWEdo{
+    background-color: white; 
+    font-size: 50px;
+   color: #24b89f;
+   margin-left: 100px;
+   width: 50px;
+   margin-top: 20px;
+}
+/* tittles of icons in What We Do */
+.weDO{
+    text-transform: uppercase;
+    color: black;
+    margin-top: 15px;
+}
+/* the descriptions of icons in what we do */
+.weDO2{
+    text-transform: uppercase;
+    color: black;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+/* Tittle features */
+.title_features{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+/* content of images in features */
+.container-lg{
+    margin-right:  255px;
+}
+/* The description of features */
+.text_features{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: auto;
+    margin-bottom: 50px;
+    color: white;
+}
+/* Images of features */
+.rounded3{
+    margin-top: 50px;
+    margin: 20px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+/* conteiner of stay in touch  */
+.contact{
+    margin-top: 50px;
+}
+/* tittle of stay in touch   */
+.start3{
+    background-color: #dfe6ec;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+    width: 10px;
+    margin-left: 294px;
+}
+
+/* map */
+.FullWidthIMG{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+/* form */
+form{
+    margin-top: -200px;
+    background-color: white;
+}
+
+/* button inside form */
+.btnContact{
+    margin-top: 20px;
+    background-color: #24b89f;
+    border: 1px solid #24b89f;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* Yourn name , email massage  inside form*/
+.form-control{
+    background-color: #eaeef1;
+}
+
+.form_ITEM{
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: #3b454e;
+    padding: 40px;
+}
+.footerIcons{
+    color: white;
+    margin: 5px;
+}
